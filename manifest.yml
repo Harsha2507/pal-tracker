@@ -2,6 +2,7 @@
 applications:
   - name: pal-tracker
     path: build/libs/pal-tracker.jar
+    routes:
     - route: pal-tracker-chidambar-01.apps.cfapps.io
     env:
       WELCOME_MESSAGE: Hello from the review environment
