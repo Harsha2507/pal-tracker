@@ -62,3 +62,7 @@ flyway {
 task testMigrate(type: FlywayMigrateTask) {
     url = testDbUrl
 }
+
+springBoot {
+    buildInfo()
+}
